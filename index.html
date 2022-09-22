@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Encriptador de Texto</title>
+		<link rel="stylesheet" href="style.css">
+
+		<link rel="icon" href="icon.png">
+
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		
+	</head>
+	
+	<body>        
+			<header>
+			    <h1>Codifique o seu texto!</h1> 
+            </header>
+
+            <section>
+
+		    <div class="esquerda">
+            
+			<textarea placeholder="Digite aqui =)" class="input" id="inputTexto"></textarea>
+            <div class="btns">
+                <button class="btn" onclick="codificar()" id="btn1">
+                    Codificar
+                </button>
+                <button class="btn" onclick="decodificar()">
+                    Decodificar
+                </button>
+            </div>
+
+            </div>
+
+		<div class="direita">
+			<div id="resposta" class="resposta"></div>
+			<h2 id="mensagem1">Nenhuma mensagem encontrada</h2>
+			<p id="mensagem2">Digite um texto que você deseja criptografar ou descriptografar</p>
+			<img src="gatinho2.jpg" id="imagem">
+			<button class="btn-copiar" id="copiar">
+				Copiar
+			</button>
+		</div>
+            </section>
+
+            <footer>
+                rodapé
+            </footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
